@@ -7,6 +7,7 @@ on()
 config(group=6, length=251)
 
 typeTransmitted = randint(0,2)
+# R – rock, S – scissors, P – paper
 rps = [ "r", "s", "p" ]
 shaken = False
 
