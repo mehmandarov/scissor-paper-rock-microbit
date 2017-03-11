@@ -7,7 +7,7 @@ on()
 config(group=6, length=251)
 
 typeTransmitted = randint(0,2)
-rps = [ "r", "p", "s" ]
+rps = [ "r", "s", "p" ]
 shaken = False
 
 # 0=stein, 1=saks, 2=papir
