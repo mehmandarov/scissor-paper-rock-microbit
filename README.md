@@ -6,4 +6,6 @@ The code simulates a popular Scissor-Paper-Rock game using two micro:bit devices
 * The opposite device comperes then its own shape to the one received, and decides weather it won or lost
 * Each of the two micro:bits shows then "Won" or "Lost" on the LED array.
 
+**Note**: Make sure to change *group=1* to a number between 0 and 255. Both chips should belong to the same group to connect to each other.
+
 [1]: http://mehmandarov.com/microbit-bluetooth-challenge/
